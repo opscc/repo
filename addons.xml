@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="repository.opscc" name=" opscc Addons" provider-name="opscc" version="1.0.0">
+<addons>
+<addon id="repository.opscc" name=" opscc Addons" provider-name="opscc" version="1.0.0">
 	<extension name=" opscc Addons" point="xbmc.addon.repository">
 		<info compressed="false">http://raw.github.com/opscc/repo/master/addons.xml</info>
 		<datadir zip="true">http://raw.github.com/opscc/repo/master</datadir>
@@ -10,17 +11,30 @@
 		<disclaimer>extention point disclaimer:</disclaimer>
 		<platform>all</platform>
 	</extension>
-<addon id="repository.opscc" name=" opscc Addons" provider-name="opscc" version="1.0.0">
-	<extension name=" opscc Addons" point="xbmc.addon.repository">
-		<info compressed="false">https://raw.githubusercontent.com/opscc/repo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/opscc/repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/opscc/repo/master</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>extention point summary:</summary>
-		<description>extention point description: </description>
-		<disclaimer>extention point disclaimer:</disclaimer>
-		<platform>all</platform>
-	</extension>
 </addon>
-</addon></addons>
+<addon id="plugin.video.rtpplay2" name="RTP Play2" version="3.0.1" provider-name="opscc">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Play live emissions from RTP Play</summary>
+        <description lang="en_GB">Play live emissions from the RTP Play website</description>
+        <language>pt</language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=154645</forum>
+        <website>http://rtp.pt/play</website>
+        <news>Regex</news>
+        <disclaimer>The plugin is unnoficial and not endorsed by RTP. Expect it to break. </disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+</addons>
