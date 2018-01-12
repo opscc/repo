@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-<addon id="plugin.video.rtpplay2" name="RTP Play2" version="3.0.6" provider-name="opscc">
+<addon id="plugin.video.rtpplay2" name="RTP Play2" version="3.0.7" provider-name="opscc">
     <extension point="xbmc.python.pluginsource" library="main.py">
         <provides>video</provides>
     </extension>
