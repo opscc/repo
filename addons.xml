@@ -1,23 +1,50 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-<addon id="plugin.video.rtpplay2" name="RTP Play2" version="3.0.8" provider-name="opscc">
-    <extension point="xbmc.python.pluginsource" library="main.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Play live emissions from RTP Play</summary>
-        <description lang="en_GB">Play live emissions from the RTP Play website</description>
-        <language>pt</language>
+    <addon id="plugin.video.rtpplay2" name="RTP Play2" version="3.1.0" provider-name="opscc">
+        <extension point="xbmc.python.pluginsource" library="main.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">Play live emissions from RTP Play</summary>
+            <description lang="en_GB">Play live emissions from the RTP Play website</description>
+            <language>pt</language>
+            <platform>all</platform>
+            <license>GPL-3.0</license>
+            <forum>https://forum.kodi.tv/showthread.php?tid=154645</forum>
+            <website>http://rtp.pt/play</website>
+            <news>change to support DASH</news>
+            <disclaimer>The plugin is unnoficial and not endorsed by RTP. Expect it to break. </disclaimer>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="script.module.inputstreamhelper"
+           version="0.3.3"
+           name="InputStream Helper"
+           provider-name="emilsvennesson">
+      <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.requests" version="2.9.1"/>
+      </requires>
+      <extension library="lib" point="xbmc.python.module"/>
+      <extension point="xbmc.addon.metadata">
+        <description lang="en_GB">A simple Kodi module that makes life easier for add-on developers relying on InputStream based add-ons and DRM playback.</description>
+        <news>2018.02.21 v0.3.3
+            + Load loop if it's a kernel module (thanks to mkreisl)
+            + Fix legacy Widevine CDM update detection
+            + inputstream_addon is now a public variable
+            + Notify user that ARM64 needs 32-bit userspace
+            + Improve logging
+            + Cosmetics
+        </news>
         <platform>all</platform>
-        <license>GPL-3.0</license>
-        <forum>https://forum.kodi.tv/showthread.php?tid=154645</forum>
-        <website>http://rtp.pt/play</website>
-        <news>Regex</news>
-        <disclaimer>The plugin is unnoficial and not endorsed by RTP. Expect it to break. </disclaimer>
+        <license>MIT License</license>
+        <source>https://github.com/emilsvennesson/script.module.inputstreamhelper</source>
         <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
+          <icon>resources/icon.png</icon>
         </assets>
-    </extension>
-</addon>
+      </extension>
+    </addon>
 </addons>
