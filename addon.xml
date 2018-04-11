@@ -12,6 +12,6 @@
 	<extension point="xbmc.addon.repository" name="opscc Addons" >
         <info compressed="false">https://raw.githubusercontent.com/opscc/repo/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/opscc/repo/master/subfoder/repo.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/opscc/repo/master</datadir>
+        <datadir zip="true">https://raw.githubusercontent.com/opscc/repo/master/</datadir>
 	</extension>
 </addon>
