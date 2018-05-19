@@ -24,8 +24,11 @@
         </extension>
     </addon>
     
-    <addon id="plugin.video.rtpplay2" name="RTP Play2" version="3.2.0" provider-name="opscc">
-        <extension 
+    <addon id="plugin.video.uwc"
+       name="Ultimate Whitecream"
+       version="1.2.0"
+       provider-name="Whitecream">
+       <extension 
             point="xbmc.python.pluginsource"
             library="default.py">
             <provides>video</provides>
