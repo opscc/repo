@@ -25,7 +25,7 @@
     
     <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
-       version="1.2.0"
+       version="1.2.1"
        provider-name="Whitecream">
        <extension 
             point="xbmc.python.pluginsource"
