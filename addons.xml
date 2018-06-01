@@ -25,7 +25,7 @@
     
     <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
-       version="1.2.1"
+       version="1.2.2"
        provider-name="Whitecream">
        <extension 
             point="xbmc.python.pluginsource"
@@ -45,7 +45,7 @@
 
     <addon id="plugin.video.bonanza"
        name="IPTV BONANZA"
-       version="1.2.0"
+       version="1.2.1"
        provider-name="BONANZA">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
