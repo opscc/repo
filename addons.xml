@@ -1,37 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
     <addon id="plugin.video.rtpplay2" name="RTP Play2" version="3.2.6" provider-name="opscc">
-        <requires>
-            <import addon="script.module.inputstreamhelper" version="0.3.3"/>
-        </requires>
-        <extension point="xbmc.python.pluginsource" library="main.py">
-            <provides>video</provides>
-        </extension>
+        <requires> <import addon="script.module.inputstreamhelper" version="0.3.3"/> </requires>
+        <extension point="xbmc.python.pluginsource" library="main.py"> <provides>video</provides>  </extension>
         <extension point="xbmc.addon.metadata">
-            <summary lang="en_GB">Play live emissions from RTP Play</summary>
-            <description lang="en_GB">Play live emissions from the RTP Play website</description>
-            <language>pt</language>
+            <summary lang="en">Play live emissions from RTP Play</summary>
             <platform>all</platform>
             <license>GPL-3.0</license>
             <website>http://rtp.pt/play</website>
-            <news></news>
-            <disclaimer>The plugin is unnoficial and not endorsed by RTP. Expect it to break. </disclaimer>
-            <assets>
-                <icon>icon.png</icon>
-                <fanart>fanart.jpg</fanart>
-            </assets>
+            <assets> <icon>icon.png</icon> <fanart>fanart.jpg</fanart> </assets>
         </extension>
     </addon>
     
-    <addon id="plugin.video.uwc"
-       name="Ultimate Whitecream"
-       version="1.2.3"
-       provider-name="Whitecream">
-       <extension 
-            point="xbmc.python.pluginsource"
-            library="default.py">
-            <provides>video</provides>
-        </extension>
+    <addon id="plugin.video.uwc" name="Ultimate Whitecream" version="1.2.4" provider-name="Whitecream">
+       <extension point="xbmc.python.pluginsource" library="default.py"><provides>video</provides></extension>
         <extension point="xbmc.addon.metadata">
             <platform>all</platform>
             <license>GPL 2.0</license>
@@ -43,18 +25,12 @@
         </extension>
     </addon>
 
-    <addon id="plugin.video.bonanza"
-       name="IPTV BONANZA"
-       version="1.2.1"
-       provider-name="BONANZA">
+    <addon id="plugin.video.bonanza" name="IPTV BONANZA" version="2.0.0" provider-name="opscc">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.video.F4mProxy" version="2.5.7" />
     </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
-        <provides>video</provides>
-    </extension>
+    <extension point="xbmc.python.pluginsource" library="default.py"> <provides>video</provides> </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <license>GPL 2.0</license>
