@@ -12,7 +12,7 @@
         </extension>
     </addon>
     
-    <addon id="plugin.video.uwc" name="Ultimate Whitecream" version="1.2.5" provider-name="Whitecream">
+    <addon id="plugin.video.uwc" name="Ultimate Whitecream" version="1.2.6" provider-name="Whitecream">
        <extension point="xbmc.python.pluginsource" library="default.py"><provides>video</provides></extension>
         <extension point="xbmc.addon.metadata">
             <platform>all</platform>
@@ -25,7 +25,7 @@
         </extension>
     </addon>
 
-    <addon id="plugin.video.bonanza" name="IPTV BONANZA" version="2.0.2" provider-name="opscc">
+    <addon id="plugin.video.bonanza" name="IPTV BONANZA" version="2.0.3" provider-name="opscc">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.video.F4mProxy" version="2.5.7" />
