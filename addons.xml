@@ -12,7 +12,7 @@
         </extension>
     </addon>
     
-    <addon id="plugin.video.uwc" name="Ultimate Whitecream" version="1.3.0" provider-name="Whitecream">
+    <addon id="plugin.video.uwc" name="Ultimate Whitecream" version="1.3.1" provider-name="Whitecream">
        <extension point="xbmc.python.pluginsource" library="default.py"><provides>video</provides></extension>
         <extension point="xbmc.addon.metadata">
             <platform>all</platform>
@@ -24,7 +24,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.bonanza" name="IPTV BONANZA" version="2.0.5" provider-name="opscc">
+    <addon id="plugin.video.bonanza" name="IPTV BONANZA" version="2.0.6" provider-name="opscc">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.video.F4mProxy" version="2.5.7" />
@@ -38,13 +38,13 @@
     </extension>
     </addon>
 <addon
-  id="plugin.video.videodevil"   version="1.8.2"   name="VideoDevil"   provider-name="opscc">
+  id="plugin.video.videodevil"   version="1.8.3"   name="VideoDevil"   provider-name="opscc">
   <requires>    <import addon="xbmc.python" version="2.14.0"/>   </requires>
   <extension      point="xbmc.python.pluginsource"     library="default.py"> 
    <provides>video</provides>   </extension>
   <extension point="xbmc.addon.metadata">     <summary>Play videos from different adult sites</summary>  </extension>
 </addon>
-<addon id="plugin.video.cbcmusic" version="0.0.4" name="CBC Music" provider-name="opscc">
+<addon id="plugin.video.cbcmusic" version="0.0.6" name="CBC Music" provider-name="opscc">
     <requires>         <import addon="xbmc.python" version="2.1.0"/> <import addon="script.video.F4mProxy" version="2.5.7" />    </requires>
     <extension point="xbmc.python.pluginsource" library="default.py"><provides>video</provides></extension>
     <extension point="xbmc.addon.metadata">         <description lang="en">Play music from www.cbcmusic.ca/music-streams</description>      </extension>
