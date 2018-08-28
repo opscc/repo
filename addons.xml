@@ -44,7 +44,7 @@
    <provides>video</provides>   </extension>
   <extension point="xbmc.addon.metadata">     <summary>Play videos from different adult sites</summary>  </extension>
 </addon>
-<addon id="plugin.video.cbcmusic" version="0.0.6" name="CBC Music" provider-name="opscc">
+<addon id="plugin.video.cbcmusic" version="0.0.5" name="CBC Music" provider-name="opscc">
     <requires>         <import addon="xbmc.python" version="2.1.0"/> <import addon="script.video.F4mProxy" version="2.5.7" />    </requires>
     <extension point="xbmc.python.pluginsource" library="default.py"><provides>video</provides></extension>
     <extension point="xbmc.addon.metadata">         <description lang="en">Play music from www.cbcmusic.ca/music-streams</description>      </extension>
