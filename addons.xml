@@ -7,7 +7,7 @@
     </extension>
 </addon>
     
-<addon id="plugin.video.uwc" name="Ultimate Whitecream" version="1.4.1" provider-name="Whitecream">
+<addon id="plugin.video.uwc" name="Ultimate Whitecream" version="1.4.2" provider-name="Whitecream">
     <requires> <import addon="xbmc.python" version="2.1.0"/>  <import addon="script.video.F4mProxy" version="2.5.7" /> </requires>
     <extension point="xbmc.python.pluginsource" library="default.py"><provides>video</provides></extension>
     <extension point="xbmc.addon.metadata"> <platform>all</platform> <license>GPL 2.0</license> </extension>
@@ -25,7 +25,7 @@
   <extension point="xbmc.addon.metadata">     <summary>Play videos from different adult sites</summary>  </extension>
 </addon>
 
-<addon id="plugin.video.cbcmusic" version="0.1.1" name="CBC Music" provider-name="opscc">
+<addon id="plugin.video.cbcmusic" version="0.1.2" name="CBC Music" provider-name="opscc">
     <requires>         <import addon="xbmc.python" version="2.1.0"/> <import addon="script.video.F4mProxy" version="2.9.0" />    </requires>
     <extension point="xbmc.python.pluginsource" library="default.py"><provides>video</provides></extension>
     <extension point="xbmc.addon.metadata">         <description lang="en">Play music from www.cbcmusic.ca/music-streams</description>      </extension>
