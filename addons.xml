@@ -7,7 +7,7 @@
     </extension>
 </addon>
     
-<addon id="plugin.video.uwc" name="Ultimate Whitecream" version="1.7.5" provider-name="Whitecream">
+<addon id="plugin.video.uwc" name="Ultimate Whitecream" version="1.7.6" provider-name="Whitecream">
     <requires> <import addon="xbmc.python" version="2.1.0"/>  <import addon="script.video.F4mProxy" version="2.9.5" /> <import addon="script.module.inputstreamhelper" version="0.4.5" /> <import addon="script.module.routing" version="0.2.3" /> </requires>
     <extension point="xbmc.python.pluginsource" library="default.py"><provides>video</provides></extension>
     <extension point="xbmc.addon.metadata"> <platform>all</platform> <license>GPL 2.0</license> </extension>
@@ -64,7 +64,7 @@
     <extension point="xbmc.addon.metadata">         <description lang="en">Play music from www.cbcmusic.ca/music-streams</description>      </extension>
 </addon>
 
-<addon id="script.video.F4mProxy" name="F4mProxy" version="2.9.6" provider-name="Shani">
+<addon id="script.video.F4mProxy" name="F4mProxy" version="2.9.7" provider-name="Shani">
     <requires>         <import addon="xbmc.python" version="2.1.0" />         <import addon="script.module.requests" />     </requires>
     <extension point="xbmc.python.module" library="lib" /> 
     <extension point="xbmc.python.pluginsource" library="addon.py">         <provides>executable</provides>     </extension>
