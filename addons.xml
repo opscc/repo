@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-    <addon id="plugin.video.rtpplay2" name="RTP Play2" version="3.4.0" provider-name="opscc">
+    <addon id="plugin.video.rtpplay2" name="RTP Play2" version="3.4.1" provider-name="opscc">
     <requires> <import addon="script.video.F4mProxy" version="2.9.8"/> <import addon="script.module.inputstreamhelper" version="0.3.3"/> </requires>
     <extension point="xbmc.python.pluginsource" library="main.py"> <provides>video</provides>  </extension>
     <extension point="xbmc.addon.metadata"> <platform>all</platform> <license>GPL-3.0</license> <website>http://rtp.pt/play</website>
@@ -64,7 +64,7 @@
     <extension point="xbmc.addon.metadata">         <description lang="en">Play music from www.cbcmusic.ca/music-streams</description>      </extension>
 </addon>
 
-<addon id="script.video.F4mProxy" name="F4mProxy" version="2.9.8" provider-name="Shani">
+<addon id="script.video.F4mProxy" name="F4mProxy" version="2.9.9" provider-name="Shani">
     <requires>         <import addon="xbmc.python" version="2.1.0" />         <import addon="script.module.requests" />     </requires>
     <extension point="xbmc.python.module" library="lib" /> 
     <extension point="xbmc.python.pluginsource" library="addon.py">         <provides>executable</provides>     </extension>
