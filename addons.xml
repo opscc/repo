@@ -167,7 +167,53 @@
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 	</extension>
 </addon>
+
+<addon id="script.exodusredux.artwork" version="1.0.2" name="Exodus Redux Artwork" provider-name="I-A-C">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Exodus Redux Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
 	
+<addon id="script.exodusredux.metadata" version="1.0.2" name="Exodus Redux Metadata" provider-name="I-A-C">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the Exodus Redux Addon</summary>
+		<description>Metadata for Exodus Redux are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 	
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.lyrebird" name="Lyrebird" version="1.0.0a" provider-name="Rufoo">
+    <requires>
+        <import addon="xbmc.gui" version="5.14.0"/>
+        <import addon="resource.images.studios.white" version="0.0.6"/>
+        <import addon="script.skinshortcuts" version="1.0.17"/>
+        <import addon="script.toolbox" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>CC BY-NC-SA 4.0</license>
+        <forum>http://forum.kodi.tv/forumdisplay.php?fid=218</forum>
+        <website></website>
+        <email></email>
+        <source>https://github.com/rufoo/skin.lyrebird</source>
+    </extension>
+</addon>
+
+
 	
 </addons>
