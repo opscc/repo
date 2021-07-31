@@ -7,7 +7,7 @@
     </extension>
 </addon>
     
-<addon id="plugin.video.uwc" name="Ultimate Whitecream" version="1.7.22" provider-name="Whitecream">
+<addon id="plugin.video.uwc" name="Ultimate Whitecream" version="1.7.23" provider-name="Whitecream">
     <requires> <import addon="xbmc.python" version="2.1.0"/>  <import addon="script.video.F4mProxy" version="2.9.10" /> <import addon="script.module.inputstreamhelper" version="0.4.5" /> <import addon="script.module.routing" version="0.2.3" /> </requires>
     <extension point="xbmc.python.pluginsource" library="default.py"><provides>video</provides></extension>
     <extension point="xbmc.addon.metadata"> <platform>all</platform> <license>GPL 2.0</license> </extension>
@@ -73,7 +73,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.34a" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.34b" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
@@ -103,7 +103,7 @@
     <extension point="xbmc.addon.metadata">         <description lang="en">Play music from www.cbcmusic.ca/music-streams</description>      </extension>
 </addon>
 
-<addon id="script.video.F4mProxy" name="F4mProxy" version="2.9.11" provider-name="Shani">
+<addon id="script.video.F4mProxy" name="F4mProxy" version="2.9.12" provider-name="Shani">
     <requires>         <import addon="xbmc.python" version="2.1.0" />         <import addon="script.module.requests" />     </requires>
     <extension point="xbmc.python.module" library="lib" /> 
     <extension point="xbmc.python.pluginsource" library="addon.py">         <provides>executable</provides>     </extension>
@@ -139,7 +139,7 @@
 </addon>
 
     
-<addon id="script.module.openscrapers" name="OpenScrapers Module" version="0.0.2.012f" provider-name="Addons4Kodi">
+<addon id="script.module.openscrapers" name="OpenScrapers Module" version="0.0.2.012g" provider-name="Addons4Kodi">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.beautifulsoup4" />
@@ -173,7 +173,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.module.exodusredux" name="Exodus Redux Module" version="2.0.5d" provider-name="I-A-C">
+	<addon id="script.module.exodusredux" name="Exodus Redux Module" version="2.0.5f" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
@@ -185,7 +185,7 @@
 	</extension>
 </addon>
 
-	<addon id="plugin.video.exodusredux" version="2.1.0d" name="Exodus Redux" provider-name="I-A-C">
+	<addon id="plugin.video.exodusredux" version="2.1.0e" name="Exodus Redux" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodusredux" />
@@ -234,7 +234,7 @@
 
 	
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.lyrebird" name="Lyrebird" version="1.0.0a" provider-name="Rufoo">
+<addon id="skin.lyrebird" name="Lyrebird" version="1.0.0b" provider-name="Rufoo">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="resource.images.studios.white" version="0.0.6"/>
