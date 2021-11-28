@@ -228,17 +228,31 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-	
-<addon id="script.exodusredux.metadata" version="1.0.2" name="Exodus Redux Metadata" provider-name="I-A-C">
+
+<addon id="script.exodusredux.artwork" version="1.0.2" name="Exodus Redux Artwork" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary>Metadata for the Exodus Redux Addon</summary>
-		<description>Metadata for Exodus Redux are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<summary>Themes for the Exodus Redux Addon</summary>
+		<description></description>
 		<platform>all</platform>
 	</extension>
+</addon>
+	
+<addon id="script.module.simplecache" name="Simple Cache Module" version="2.0.2" provider-name="marcelveldt">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Provides a simple file- and memory based cache for Kodi addons</summary>
+        <description> v 1.0.16  Provides a simple file- and memory based cache for Kodi addons</description>
+        <license>Apache 2.0</license>
+        <source>https://github.com/marcelveldt/script.module.simplecache</source>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 	
