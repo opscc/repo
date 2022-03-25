@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-    <addon id="plugin.video.rtpplay2" name="RTP Play2" version="3.4.6" provider-name="opscc">
+    <addon id="plugin.video.rtpplay2" name="RTP Play2" version="3.4.7" provider-name="opscc">
     <requires> <import addon="script.video.F4mProxy" version="2.9.8"/> <import addon="script.module.inputstreamhelper" version="0.3.3"/> </requires>
     <extension point="xbmc.python.pluginsource" library="main.py"> <provides>video</provides>  </extension>
     <extension point="xbmc.addon.metadata"> <platform>all</platform> <license>GPL-3.0</license> <website>http://rtp.pt/play</website>
@@ -82,7 +82,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.52b" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.61b" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
@@ -148,7 +148,7 @@
 </addon>
 
     
-<addon id="script.module.openscrapers" name="OpenScrapers Module" version="0.0.2.012h" provider-name="Addons4Kodi">
+<addon id="script.module.openscrapers" name="OpenScrapers Module" version="0.0.2.012i" provider-name="Addons4Kodi">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.beautifulsoup4" />
@@ -182,7 +182,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.module.exodusredux" name="Exodus Redux Module" version="2.0.5h" provider-name="I-A-C">
+	<addon id="script.module.exodusredux" name="Exodus Redux Module" version="2.0.5i" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
