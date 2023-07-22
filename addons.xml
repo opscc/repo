@@ -83,7 +83,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.91a" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.91b" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
@@ -149,7 +149,7 @@
 </addon>
 
     
-<addon id="script.module.openscrapers" name="OpenScrapers Module" version="0.0.2.012L" provider-name="Addons4Kodi">
+<addon id="script.module.openscrapers" name="OpenScrapers Module" version="0.0.2.012m" provider-name="Addons4Kodi">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.beautifulsoup4" />
