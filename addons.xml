@@ -183,7 +183,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.module.exodusredux" name="Exodus Redux Module" version="2.0.5L" provider-name="I-A-C">
+	<addon id="script.module.exodusredux" name="Exodus Redux Module" version="2.0.5m" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
