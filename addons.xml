@@ -113,14 +113,22 @@
     <extension point="xbmc.addon.metadata">         <description lang="en">Play music from www.cbcmusic.ca/music-streams</description>      </extension>
 </addon>
 
-<addon id="script.video.F4mProxy" name="F4mProxy" version="2.9.15" provider-name="Shani">
+<addon id="script.video.F4mProxy" name="F4mProxy" version="2.9.16" provider-name="Shani">
     <requires>         <import addon="xbmc.python" version="2.1.0" />         <import addon="script.module.requests" />     </requires>
     <extension point="xbmc.python.module" library="lib" /> 
     <extension point="xbmc.python.pluginsource" library="addon.py">         <provides>executable</provides>     </extension>
     <extension point="xbmc.addon.metadata">         <platform>all</platform>         <summary lang="en">Proxy for f4m</summary>         <description lang="en">Use this addon to play F4m v1 and v2 streams</description>     </extension>
 </addon>
 	
-<addon id="script.module.inputstreamhelper"
+
+	
+	
+	
+	
+	
+	
+	
+	<addon id="script.module.inputstreamhelper"
            version="0.3.3"
            name="InputStream Helper"
            provider-name="emilsvennesson">
@@ -149,7 +157,14 @@
 </addon>
 
     
-<addon id="script.module.openscrapers" name="OpenScrapers Module" version="0.0.2.012n" provider-name="Addons4Kodi">
+
+	
+	
+	
+	
+	
+	
+	<addon id="script.module.openscrapers" name="OpenScrapers Module" version="0.0.2.012n" provider-name="Addons4Kodi">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.beautifulsoup4" />
@@ -195,6 +210,14 @@
 	</extension>
 </addon>
 
+	
+	
+	
+	
+	
+	
+	
+	
 	<addon id="plugin.video.exodusredux" version="2.1.0k" name="Exodus Redux" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -230,7 +253,15 @@
 	</extension>
 </addon>
 
-<addon id="script.module.certifi" name="certifi" version="2021.10.8" provider-name="Certifi">
+
+	
+	
+	
+	
+	
+	
+	
+	<addon id="script.module.certifi" name="certifi" version="2021.10.8" provider-name="Certifi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -247,6 +278,14 @@
   </extension>
 </addon>
 
+
+
+
+
+
+
+
+	
 <addon id="plugin.video.youtube" name="YouTube" version="6.8.25a" provider-name="anxdpanic, bromix">
   <requires>
     <import addon="xbmc.python" version="2.20.0"/>
@@ -273,7 +312,15 @@
   </extension>
 </addon>
 
-<addon id="script.exodusredux.metadata" version="1.0.2" name="Exodus Redux metadata" provider-name="I-A-C">
+
+	
+	
+	
+	
+	
+	
+	
+	<addon id="script.exodusredux.metadata" version="1.0.2" name="Exodus Redux metadata" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
