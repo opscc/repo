@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
 
-<addon id="plugin.video.rtpplay2" name="RTP Play2" version="3.6.3" provider-name="opscc">
+<addon id="plugin.video.rtpplay2" name="RTP Play2" version="3.7.0" provider-name="opscc">
     <requires> <import addon="script.video.F4mProxy" version="2.9.8"/> <import addon="script.module.inputstreamhelper" version="0.3.3"/> </requires>
     <extension point="xbmc.python.pluginsource" library="main.py"> <provides>video</provides>  </extension>
     <extension point="xbmc.addon.metadata"> <platform>all</platform> <license>GPL-3.0</license> <website>http://rtp.pt/play</website>
     </extension>
 </addon>
     
-<addon id="plugin.video.uwc" name="Ultimate Whitecream" version="1.8.11" provider-name="Whitecream">
+<addon id="plugin.video.uwc" name="Ultimate Whitecream" version="1.8.13" provider-name="Whitecream">
     <requires> 
 		<import addon="xbmc.python" version="2.1.0"/>  
 		<import addon="script.video.F4mProxy" version="2.9.10" /> 
@@ -63,7 +63,7 @@
 
 <addon id="script.module.urllib3"
        name="urllib3"
-       version="1.25.15a"
+       version="1.25.16a"
        provider-name="Andrey Petrov">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
@@ -83,7 +83,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.91b" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.91c" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
@@ -149,7 +149,7 @@
 </addon>
 
     
-<addon id="script.module.openscrapers" name="OpenScrapers Module" version="0.0.2.012m" provider-name="Addons4Kodi">
+<addon id="script.module.openscrapers" name="OpenScrapers Module" version="0.0.2.012n" provider-name="Addons4Kodi">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.beautifulsoup4" />
@@ -183,7 +183,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.module.exodusredux" name="Exodus Redux Module" version="2.0.5k" provider-name="I-A-C">
+	<addon id="script.module.exodusredux" name="Exodus Redux Module" version="2.0.5l" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
@@ -195,7 +195,7 @@
 	</extension>
 </addon>
 
-	<addon id="plugin.video.exodusredux" version="2.1.0j" name="Exodus Redux" provider-name="I-A-C">
+	<addon id="plugin.video.exodusredux" version="2.1.0k" name="Exodus Redux" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodusredux" />
