@@ -9,6 +9,7 @@
 	    <import addon="script.video.F4mProxy" version="2.9.10" /> 
 	    <import addon="script.module.certifi" version="2.25.0a"/>
 	    <import addon="script.module.requests" version="2.12.4"/>
+	    <import addon="script.module.urllib3" version="1.26.16a" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="main.py"> <provides>video</provides>  </extension>
     <extension point="xbmc.addon.metadata"> <platform>all</platform> <license>GPL-3.0</license> <website>http://rtp.pt/play</website>
@@ -24,7 +25,7 @@
 		<import addon="script.module.resolveurl" version="5.1.34a" />
 		<import addon="script.module.simplecache" version="2.0.2" />
 		<import addon="script.module.requests" version="0.0.0" />
-		<import addon="script.module.urllib3" version="1.25.6a" />
+		<import addon="script.module.urllib3" version="1.26.16a" />
 	</requires>
     <extension point="xbmc.python.pluginsource" library="default.py"><provides>video</provides></extension>
     <extension point="xbmc.addon.metadata"> <platform>all</platform> <license>GPL 2.0</license> </extension>
