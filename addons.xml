@@ -2,7 +2,14 @@
 <addons>
 
 <addon id="plugin.video.rtpplay2" name="RTP Play2" version="3.7.0" provider-name="opscc">
-    <requires> <import addon="script.video.F4mProxy" version="2.9.8"/> <import addon="script.module.inputstreamhelper" version="0.3.3"/> </requires>
+    <requires> <import addon="script.video.F4mProxy" version="2.9.8"/>
+	    <import addon="script.module.inputstreamhelper" version="0.3.3"/>
+	    <import addon="script.module.simplecache" version="2.0.2" />
+	    <import addon="script.module.routing" version="0.2.3" />
+	    <import addon="script.video.F4mProxy" version="2.9.10" /> 
+	    <import addon="script.module.certifi" version="2.25.0a"/>
+	    <import addon="script.module.requests" version="2.12.4"/>
+    </requires>
     <extension point="xbmc.python.pluginsource" library="main.py"> <provides>video</provides>  </extension>
     <extension point="xbmc.addon.metadata"> <platform>all</platform> <license>GPL-3.0</license> <website>http://rtp.pt/play</website>
     </extension>
