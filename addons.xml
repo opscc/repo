@@ -91,7 +91,7 @@
 	
 <addon id="script.module.urllib3"
        name="urllib3"
-       version="1.25.16a"
+       version="1.26.16a"
        provider-name="Andrey Petrov">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
