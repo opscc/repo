@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
 
-<addon id="plugin.video.rtpplay2" name="RTP Play2" version="3.7.1" provider-name="opscc">
+<addon id="plugin.video.rtpplay2" name="RTP Play2" version="3.7.2" provider-name="opscc">
     <requires> <import addon="script.video.F4mProxy" version="2.9.8"/>
 	    <import addon="script.module.inputstreamhelper" version="0.3.3"/>
 	    <import addon="script.module.simplecache" version="2.0.2" />
@@ -16,7 +16,7 @@
     </extension>
 </addon>
     
-<addon id="plugin.video.uwc" name="Ultimate Whitecream" version="1.8.14" provider-name="Whitecream">
+<addon id="plugin.video.uwc" name="Ultimate Whitecream" version="1.8.15" provider-name="Whitecream">
     <requires> 
 		<import addon="xbmc.python" version="2.1.0"/>  
 		<import addon="script.video.F4mProxy" version="2.9.10" /> 
@@ -32,7 +32,7 @@
 </addon>
 
 <addon id="script.module.openscrapers" name="OpenScrapers Module" 
-	version="0.0.2.012p" 
+	version="0.0.2.012q" 
 	provider-name="Addons4Kodi">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
@@ -85,7 +85,7 @@
 
 
 	
-	<addon id="script.module.routing" name="Plugin routing" version="0.2.3" provider-name="takoi">
+<addon id="script.module.routing" name="Plugin routing" version="0.2.3" provider-name="takoi">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
     </requires>
@@ -125,7 +125,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.91c" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.91d" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
@@ -205,7 +205,7 @@
 	
 	
 
-	<addon id="script.module.exodusredux" name="Exodus Redux Module" version="2.0.5o" provider-name="I-A-C">
+<addon id="script.module.exodusredux" name="Exodus Redux Module" version="2.0.5p" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
@@ -225,7 +225,7 @@
 	
 	
 	
-	<addon id="plugin.video.exodusredux" version="2.1.0k" name="Exodus Redux" provider-name="I-A-C">
+<addon id="plugin.video.exodusredux" version="2.1.0m" name="Exodus Redux" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodusredux" />
@@ -268,7 +268,7 @@
 	
 	
 	
-	<addon id="script.module.certifi" name="certifi" version="2021.10.8" provider-name="Certifi">
+<addon id="script.module.certifi" name="certifi" version="2021.10.8" provider-name="Certifi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -327,7 +327,7 @@
 	
 	
 	
-	<addon id="script.exodusredux.metadata" version="1.0.2" name="Exodus Redux metadata" provider-name="I-A-C">
+<addon id="script.exodusredux.metadata" version="1.0.2" name="Exodus Redux metadata" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
