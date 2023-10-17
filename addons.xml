@@ -16,7 +16,10 @@
     </extension>
 </addon>
     
-<addon id="plugin.video.uwc" name="Ultimate Whitecream" version="1.8.15" provider-name="Whitecream">
+<addon id="plugin.video.uwc" 
+    name="Ultimate Whitecream" 
+    version="1.8.16" 
+    provider-name="Whitecream">
     <requires> 
 		<import addon="xbmc.python" version="2.1.0"/>  
 		<import addon="script.video.F4mProxy" version="2.9.10" /> 
