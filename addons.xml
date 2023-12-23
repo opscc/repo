@@ -18,7 +18,7 @@
     
 <addon id="plugin.video.uwc" 
     name="Ultimate Whitecream" 
-    version="1.8.16" 
+    version="1.8.17" 
     provider-name="Whitecream">
     <requires> 
 		<import addon="xbmc.python" version="2.1.0"/>  
@@ -35,7 +35,7 @@
 </addon>
 
 <addon id="script.module.openscrapers" name="OpenScrapers Module" 
-	version="0.0.2.012q" 
+	version="0.0.2.012r" 
 	provider-name="Addons4Kodi">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
@@ -108,7 +108,7 @@
 	
 <addon id="script.module.urllib3"
        name="urllib3"
-       version="1.26.16a"
+       version="1.26.18a"
        provider-name="Andrey Petrov">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
@@ -128,7 +128,9 @@
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.91d" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" 
+	version="5.1.91e" 
+	provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
@@ -158,20 +160,15 @@
     <extension point="xbmc.addon.metadata">         <description lang="en">Play music from www.cbcmusic.ca/music-streams</description>      </extension>
 </addon>
 
-<addon id="script.video.F4mProxy" name="F4mProxy" version="2.9.17" provider-name="Shani">
+<addon id="script.video.F4mProxy" 
+	name="F4mProxy" 
+	version="2.9.17" 
+	provider-name="Shani">
     <requires>         <import addon="xbmc.python" version="2.1.0" />         <import addon="script.module.requests" />     </requires>
     <extension point="xbmc.python.module" library="lib" /> 
     <extension point="xbmc.python.pluginsource" library="addon.py">         <provides>executable</provides>     </extension>
     <extension point="xbmc.addon.metadata">         <platform>all</platform>         <summary lang="en">Proxy for f4m</summary>         <description lang="en">Use this addon to play F4m v1 and v2 streams</description>     </extension>
 </addon>
-	
-
-	
-	
-	
-	
-	
-	
 	
 	<addon id="script.module.inputstreamhelper"
            version="0.3.3"
@@ -201,14 +198,10 @@
       </extension>
 </addon>
 
-    
-
-	
-	
-	
-	
-
-<addon id="script.module.exodusredux" name="Exodus Redux Module" version="2.0.5p" provider-name="I-A-C">
+<addon id="script.module.exodusredux" 
+	name="Exodus Redux Module" 
+	version="2.0.5r" 
+	provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
@@ -220,14 +213,6 @@
 	</extension>
 </addon>
 
-	
-	
-	
-	
-	
-	
-	
-	
 <addon id="plugin.video.exodusredux" version="2.1.0m" name="Exodus Redux" provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -262,14 +247,6 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-
-
-	
-	
-	
-	
-	
-	
 	
 <addon id="script.module.certifi" name="certifi" version="2021.10.8" provider-name="Certifi">
   <requires>
@@ -289,13 +266,6 @@
 </addon>
 
 
-
-
-
-
-
-
-	
 <addon id="plugin.video.youtube" name="YouTube" version="6.8.25a" provider-name="anxdpanic, bromix">
   <requires>
     <import addon="xbmc.python" version="2.20.0"/>
@@ -322,13 +292,6 @@
   </extension>
 </addon>
 
-
-	
-	
-	
-	
-	
-	
 	
 <addon id="script.exodusredux.metadata" version="1.0.2" name="Exodus Redux metadata" provider-name="I-A-C">
 	<requires>
