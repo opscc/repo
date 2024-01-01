@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
 
-<addon id="plugin.video.rtpplay2" name="RTP Play2" version="3.7.3" provider-name="opscc">
+<addon id="plugin.video.rtpplay2" name="RTP Play2" version="3.7.4" provider-name="opscc">
     <requires> <import addon="script.video.F4mProxy" version="2.9.8"/>
 	    <import addon="script.module.inputstreamhelper" version="0.3.3"/>
 	    <import addon="script.module.simplecache" version="2.0.2" />
@@ -35,7 +35,7 @@
 </addon>
 
 <addon id="script.module.openscrapers" name="OpenScrapers Module" 
-	version="0.0.2.012r" 
+	version="0.0.2.012s" 
 	provider-name="Addons4Kodi">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
@@ -129,7 +129,7 @@
 </addon>
 
 <addon id="script.module.resolveurl" name="ResolveURL" 
-	version="5.1.91e" 
+	version="5.1.119a" 
 	provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
@@ -200,7 +200,7 @@
 
 <addon id="script.module.exodusredux" 
 	name="Exodus Redux Module" 
-	version="2.0.5r" 
+	version="2.0.5s" 
 	provider-name="I-A-C">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
