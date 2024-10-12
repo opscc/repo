@@ -160,7 +160,7 @@
       <summary lang="en">IPTV BONANZA</summary>
     </extension>
   </addon>
-  <addon id="plugin.video.cbcmusic" version="0.1.3" name="CBC Music" provider-name="opscc">
+  <addon id="plugin.video.cbcmusic" version="0.1.4" name="CBC Music" provider-name="opscc">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
       <import addon="script.video.F4mProxy" version="2.9.10"/>
