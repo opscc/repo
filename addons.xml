@@ -45,7 +45,10 @@
       <license>GPL 2.0</license>
     </extension>
   </addon>
-  <addon id="script.module.openscrapers" name="OpenScrapers Module" version="0.0.2.012t" provider-name="Addons4Kodi">
+  <addon id="script.module.openscrapers" 
+        name="OpenScrapers Module" 
+        version="0.0.2.012u" 
+        provider-name="Addons4Kodi">
     <requires>
       <import addon="xbmc.python" version="2.25.0"/>
       <import addon="script.module.beautifulsoup4"/>
@@ -59,6 +62,7 @@
       <platform>all</platform>
     </extension>
   </addon>
+  
   <addon id="script.module.routing" name="Plugin routing" version="0.2.3" provider-name="takoi">
     <requires>
       <import addon="xbmc.python" version="2.14.0"/>
