@@ -2,7 +2,7 @@
 <addons>
   <addon id="plugin.video.rtpplay2" 
         name="RTP Play2" 
-        version="3.9.3" 
+        version="3.9.4" 
         provider-name="opscc">
     <requires>
       <import addon="script.video.F4mProxy" version="2.9.8"/>
@@ -23,6 +23,7 @@
       <website>http://rtp.pt/play</website>
     </extension>
   </addon>
+
   <addon id="plugin.video.uwc" 
          name="Ultimate Whitecream" 
          version="1.8.18" 
@@ -45,9 +46,10 @@
       <license>GPL 2.0</license>
     </extension>
   </addon>
+
   <addon id="script.module.openscrapers" 
         name="OpenScrapers Module" 
-        version="0.0.2.012u" 
+        version="0.0.2.012w" 
         provider-name="Addons4Kodi">
     <requires>
       <import addon="xbmc.python" version="2.25.0"/>
@@ -79,6 +81,7 @@
       </assets>
     </extension>
   </addon>
+
   <addon id="script.module.win_inet_pton" name="win-inet-pton" version="1.1.0" provider-name="hickeroar">
     <requires>
       <import addon="xbmc.python" version="2.25.0"/>
@@ -99,6 +102,7 @@
       </assets>
     </extension>
   </addon>
+
   <addon id="script.module.routing" name="Plugin routing" version="0.2.3" provider-name="takoi">
     <requires>
       <import addon="xbmc.python" version="2.14.0"/>
@@ -133,7 +137,11 @@
       </assets>
     </extension>
   </addon>
-  <addon id="script.module.resolveurl" name="ResolveURL" version="5.1.119b" provider-name="gujal">
+
+  <addon id="script.module.resolveurl" 
+      name="ResolveURL" 
+      version="5.1.119c" 
+      provider-name="gujal">
     <requires>
       <!-- <import addon="xbmc.python" version="3.0.0" /> -->
       <import addon="script.module.six"/>
@@ -180,7 +188,12 @@
       <description lang="en">Play music from www.cbcmusic.ca/music-streams</description>
     </extension>
   </addon>
-  <addon id="script.video.F4mProxy" name="F4mProxy" version="2.9.17" provider-name="Shani">
+
+  <addon 
+    id="script.video.F4mProxy" 
+    name="F4mProxy" 
+    version="2.9.18" 
+    provider-name="Shani">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
       <import addon="script.module.requests"/>
