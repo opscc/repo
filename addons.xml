@@ -2,7 +2,7 @@
 <addons>
   <addon id="plugin.video.rtpplay2" 
         name="RTP Play2" 
-        version="3.9.4" 
+        version="3.9.5" 
         provider-name="opscc">
     <requires>
       <import addon="script.video.F4mProxy" version="2.9.8"/>
@@ -26,7 +26,7 @@
 
   <addon id="plugin.video.uwc" 
          name="Ultimate Whitecream" 
-         version="1.8.18" 
+         version="1.8.19" 
          provider-name="Whitecream">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
@@ -49,7 +49,7 @@
 
   <addon id="script.module.openscrapers" 
         name="OpenScrapers Module" 
-        version="0.0.2.013b" 
+        version="0.0.2.013c" 
         provider-name="Addons4Kodi">
     <requires>
       <import addon="xbmc.python" version="2.25.0"/>
