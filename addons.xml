@@ -49,7 +49,7 @@
 
   <addon id="script.module.openscrapers" 
         name="OpenScrapers Module" 
-        version="0.0.2.013f" 
+        version="0.0.2.013g" 
         provider-name="Addons4Kodi">
     <requires>
       <import addon="xbmc.python" version="2.25.0"/>
