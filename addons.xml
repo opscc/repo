@@ -26,10 +26,9 @@
 
   <addon id="plugin.video.uwc" 
          name="Ultimate Whitecream" 
-         version="1.8.19" 
+         version="2.0.0" 
          provider-name="Whitecream">
     <requires>
-      <import addon="xbmc.python" version="2.1.0"/>
       <import addon="script.video.F4mProxy" version="2.9.10"/>
       <import addon="script.module.inputstreamhelper" version="0.4.5"/>
       <import addon="script.module.routing" version="0.2.3"/>
@@ -49,12 +48,13 @@
 
   <addon id="script.module.openscrapers" 
         name="OpenScrapers Module" 
-        version="0.0.2.013h" 
+        version="0.0.3.0" 
         provider-name="Addons4Kodi">
     <requires>
-      <import addon="xbmc.python" version="2.25.0"/>
       <import addon="script.module.beautifulsoup4"/>
       <import addon="script.module.requests"/>
+      <import addon="script.module.resolveurl" version="5.1.34a"/>
+      <import addon="script.module.simplecache" version="2.0.2"/>   
     </requires>
     <extension point="xbmc.python.pluginsource" library="lib/default.py">
       <provides>executable</provides>
@@ -67,7 +67,7 @@
   
     <addon id="script.module.resolveurl" 
       name="ResolveURL" 
-      version="5.1.120c" 
+      version="5.3.120b" 
       provider-name="gujal">
     <requires>
       <!-- <import addon="xbmc.python" version="3.0.0" /> -->
