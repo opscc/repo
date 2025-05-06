@@ -67,7 +67,7 @@
   
     <addon id="script.module.resolveurl" 
       name="ResolveURL" 
-      version="5.3.120c"
+      version="5.3.120d"
       provider-name="gujal">
     <requires>
       <!-- <import addon="xbmc.python" version="3.0.0" /> -->
