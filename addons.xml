@@ -48,7 +48,7 @@
 
   <addon id="script.module.openscrapers" 
         name="OpenScrapers Module" 
-        version="0.0.3.1"
+        version="0.0.3.2"
         provider-name="Addons4Kodi">
     <requires>
       <import addon="script.module.beautifulsoup4"/>
@@ -67,7 +67,7 @@
   
     <addon id="script.module.resolveurl" 
       name="ResolveURL" 
-      version="5.3.120d"
+      version="5.3.120e"
       provider-name="gujal">
     <requires>
       <!-- <import addon="xbmc.python" version="3.0.0" /> -->
@@ -174,14 +174,16 @@
       <summary lang="en">IPTV BONANZA</summary>
     </extension>
   </addon>
+  
+  
   <addon id="plugin.video.cbcmusic" 
-        version="0.1.5" 
+        version="1.0.0" 
         name="CBC Music" 
         provider-name="opscc"
         >
     <requires>
-      <import addon="xbmc.python" version="2.1.0"/>
       <import addon="script.video.F4mProxy" version="2.9.10"/>
+      <import addon="script.module.simplecache" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
       <provides>video</provides>
