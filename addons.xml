@@ -10,7 +10,7 @@
       <import addon="script.module.simplecache" version="2.0.2"/>
       <import addon="script.module.routing" version="0.2.3"/>
       <import addon="script.video.F4mProxy" version="2.9.10"/>
-      <import addon="script.module.certifi" version="2.25.0a"/>
+      <import addon="script.module.certifi" version="2025.07.14"/>
       <import addon="script.module.requests" version="2.12.4"/>
       <import addon="script.module.urllib3" version="1.26.16a"/>
     </requires>
@@ -280,11 +280,8 @@
       <platform>all</platform>
     </extension>
   </addon>
-  <addon id="script.module.certifi" name="certifi" version="2021.10.8" provider-name="Certifi">
-    <requires>
-      <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib"/>
+  <addon id="script.module.certifi" name="certifi" version="2025.07.14" provider-name="Certifi">
+        <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.addon.metadata">
       <summary lang="en_GB">Python package for providing Mozilla's CA Bundle.</summary>
       <description lang="en_GB">Certifi is a carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. It has been extracted from the Requests project.</description>
