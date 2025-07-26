@@ -26,7 +26,7 @@
 
   <addon id="plugin.video.uwc" 
          name="Ultimate Whitecream" 
-         version="2.0.1" 
+         version="2.0.2" 
          provider-name="Whitecream">
     <requires>
       <import addon="script.video.F4mProxy" version="2.9.10"/>
@@ -67,7 +67,7 @@
   
     <addon id="script.module.resolveurl" 
       name="ResolveURL" 
-      version="5.3.120f"
+      version="5.3.120g"
       provider-name="gujal">
     <requires>
       <!-- <import addon="xbmc.python" version="3.0.0" /> -->
@@ -177,7 +177,7 @@
   
   
   <addon id="plugin.video.cbcmusic" 
-        version="1.0.1" 
+        version="1.0.2" 
         name="CBC Music" 
         provider-name="opscc"
         >
