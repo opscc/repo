@@ -2,7 +2,7 @@
 <addons>
   <addon id="plugin.video.rtpplay2" 
         name="RTP Play2" 
-        version="4.0.3" 
+        version="4.0.4" 
         provider-name="opscc">
     <requires>
       <import addon="script.video.F4mProxy" version="2.9.8"/>
@@ -48,7 +48,7 @@
 
   <addon id="script.module.openscrapers" 
         name="OpenScrapers Module" 
-        version="0.0.3.4"
+        version="0.0.3.5"
         provider-name="Addons4Kodi">
     <requires>
       <import addon="script.module.beautifulsoup4"/>
