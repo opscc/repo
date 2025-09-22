@@ -2,7 +2,7 @@
 <addons>
   <addon id="plugin.video.rtpplay2" 
         name="RTP Play2" 
-        version="4.0.4" 
+        version="4.0.5" 
         provider-name="opscc">
     <requires>
       <import addon="script.video.F4mProxy" version="2.9.8"/>
@@ -102,6 +102,7 @@
       </assets>
     </extension>
   </addon>
+
 
   <addon id="script.module.win_inet_pton" name="win-inet-pton" version="1.1.0" provider-name="hickeroar">
     <requires>
@@ -433,4 +434,26 @@
       <source>https://github.com/rufoo/skin.lyrebird</source>
     </extension>
   </addon>
+
+  <addon id="repository.opscc" name="  opscc Addons" provider-name="opscc" version="1.1.0">
+      <requires>
+          <import addon="xbmc.addon" version="12.0.0"/>
+      </requires>
+      <extension point="xbmc.addon.metadata">
+      <summary>extention point summary:</summary>
+      <description>extention point description: </description>
+      <disclaimer>extention point disclaimer:</disclaimer>
+      <platform>all</platform>
+    </extension>
+    <extension point="xbmc.addon.repository" name="opscc Addons" >
+      <dir minversion="17.9.0">
+          <info compressed="false">https://raw.githubusercontent.com/opscc/repo/master/addons.xml</info>
+          <checksum>https://raw.githubusercontent.com/opscc/repo/master/subfoder/repo.md5</checksum>
+          <datadir zip="true">https://raw.githubusercontent.com/opscc/repo/master/</datadir>
+          <hashes>false</hashes>
+      </dir>
+    </extension>
+  </addon>
+
+
 </addons>
