@@ -1,4 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
 <addons>
   <addon id="plugin.video.rtpplay2" 
         name="RTP Play2" 
@@ -249,7 +251,12 @@
       <summary lang="en">Exodus Redux</summary>
     </extension>
   </addon>
-  <addon id="plugin.video.exodusredux" version="2.1.0m" name="Exodus Redux" provider-name="I-A-C">
+
+  <addon 
+    id="plugin.video.exodusredux"
+    version="2.1.0m" 
+    name="Exodus Redux" 
+    provider-name="I-A-C">
     <requires>
       <import addon="xbmc.python" version="2.19.0"/>
       <import addon="script.module.exodusredux"/>
@@ -271,6 +278,34 @@
       <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
     </extension>
   </addon>
+
+  <addon 
+    id="plugin.video.exodusredux"
+    version="3.0.0a" 
+    name="Exodus Redux" 
+    provider-name="I-A-C">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+      <import addon="script.module.exodusredux"/>
+      <import addon="script.exodusredux.artwork"/>
+      <import addon="script.exodusredux.metadata"/>
+      <import addon="script.module.resolveurl"/>
+      <import addon="script.module.requests"/>
+      <import addon="script.module.openscrapers"/>
+      <import addon="script.module.metahandler" version="1.0.0"/>
+      <import addon="script.video.F4mProxy" version="2.9.7"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Exodus Redux</summary>
+      <platform>all</platform>
+      <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    </extension>
+  </addon>
+  
   <addon id="script.exodusredux.artwork" version="1.0.2" name="Exodus Redux Artwork" provider-name="I-A-C">
     <requires>
       <import addon="xbmc.python" version="2.19.0"/>
