@@ -48,7 +48,7 @@
 
   <addon id="script.module.openscrapers" 
         name="OpenScrapers Module" 
-        version="0.0.3.5"
+        version="0.0.3.6"
         provider-name="Addons4Kodi">
     <requires>
       <import addon="script.module.beautifulsoup4"/>
