@@ -90,7 +90,7 @@
   
   <addon id="script.module.routing" name="Plugin routing" version="0.2.3" provider-name="takoi">
     <requires>
-      <import addon="xbmc.python" version="2.14.0"/>
+      <!--<import addon="xbmc.python" version="2.14.0"/>-->
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.addon.metadata">
@@ -108,7 +108,7 @@
 
   <addon id="script.module.win_inet_pton" name="win-inet-pton" version="1.1.0" provider-name="hickeroar">
     <requires>
-      <import addon="xbmc.python" version="2.25.0"/>
+      <!--<import addon="xbmc.python" version="2.25.0"/>-->
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.addon.metadata">
@@ -129,7 +129,7 @@
 
   <addon id="script.module.routing" name="Plugin routing" version="0.2.3" provider-name="takoi">
     <requires>
-      <import addon="xbmc.python" version="2.14.0"/>
+      <!--<import addon="xbmc.python" version="2.14.0"/>-->
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.addon.metadata">
@@ -144,6 +144,7 @@
       </assets>
     </extension>
   </addon>
+
   <addon id="script.module.urllib3" name="urllib3" version="1.26.18a" provider-name="Andrey Petrov">
     <requires>
       <import addon="xbmc.python" version="2.25.0"/>
@@ -307,7 +308,7 @@
   
   <addon id="script.exodusredux.artwork" version="1.0.2" name="Exodus Redux Artwork" provider-name="I-A-C">
     <requires>
-      <import addon="xbmc.python" version="2.19.0"/>
+      <!--<import addon="xbmc.python" version="2.19.0"/>-->
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.addon.metadata">
@@ -331,7 +332,7 @@
   </addon>
   <addon id="plugin.video.youtube" name="YouTube" version="6.8.25c" provider-name="anxdpanic, bromix">
     <requires>
-      <import addon="xbmc.python" version="2.20.0"/>
+      <!--<import addon="xbmc.python" version="2.20.0"/>-->
       <import addon="script.module.six" version="1.11.0"/>
       <import addon="script.module.requests" version="2.12.4"/>
       <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true"/>
@@ -356,7 +357,7 @@
   </addon>
   <addon id="script.exodusredux.metadata" version="1.0.2" name="Exodus Redux metadata" provider-name="I-A-C">
     <requires>
-      <import addon="xbmc.python" version="2.19.0"/>
+      <!--<import addon="xbmc.python" version="2.19.0"/>-->
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.addon.metadata">
@@ -367,7 +368,7 @@
   </addon>
   <addon id="script.exodusredux.artwork" version="1.0.2" name="Exodus Redux Artwork" provider-name="I-A-C">
     <requires>
-      <import addon="xbmc.python" version="2.19.0"/>
+      <!--<import addon="xbmc.python" version="2.19.0"/>-->
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.addon.metadata">
@@ -378,7 +379,7 @@
   </addon>
   <addon id="script.module.simplecache" name="Simple Cache Module" version="2.0.2" provider-name="marcelveldt">
     <requires>
-      <import addon="xbmc.python" version="2.24.0"/>
+      <!--<import addon="xbmc.python" version="2.24.0"/>-->
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.addon.metadata">
@@ -391,7 +392,7 @@
   </addon>
   <addon id="script.module.metahandler" name="metahandler" version="2.9.0a" provider-name="Eldorado">
     <requires>
-      <import addon="xbmc.python" version="2.1.0"/>
+      <!--<import addon="xbmc.python" version="2.1.0"/>-->
       <import addon="script.module.simplejson" version="3.3.0"/>
       <import addon="script.module.addon.common" version="2.0.0"/>
       <import addon="script.module.myconnpy" version="1.1.6"/>
@@ -412,7 +413,7 @@
   </addon>
   <addon id="script.module.metadatautils" name="Metadata and Artwork module" version="1.0.0a" provider-name="marcelveldt+opscc">
     <requires>
-      <import addon="xbmc.python" version="2.24.0"/>
+      <!--<import addon="xbmc.python" version="2.24.0"/>-->
       <import addon="script.module.requests" version="2.3.0"/>
       <import addon="script.module.beautifulsoup" version="3.0.8"/>
       <import addon="script.module.thetvdb" version="0.0.1"/>
@@ -434,7 +435,7 @@
   </addon>
   <addon id="script.module.thetvdb" name="The TVDB API v2" version="1.0.12a" provider-name="marcelveldt+opscc">
     <requires>
-      <import addon="xbmc.python" version="2.24.0"/>
+      <!--<import addon="xbmc.python" version="2.24.0"/>-->
       <import addon="script.module.requests" version="2.3.0"/>
       <import addon="script.module.simplejson" version="3.3.0"/>
       <import addon="script.module.simplecache" version="1.0.0"/>
