@@ -486,7 +486,7 @@
           <datadir zip="true">https://raw.githubusercontent.com/opscc/repo/master/</datadir>
           <hashes>false</hashes>
       </dir>
-      <dir minversion="20.0">
+      <dir minversion="19.9">
           <info compressed="false">https://raw.githubusercontent.com/opscc/repo/master/addons20.xml</info>
           <checksum>https://raw.githubusercontent.com/opscc/repo/master/subfoder/repo.md5</checksum>
           <datadir zip="true">https://raw.githubusercontent.com/opscc/repo/master/</datadir>
