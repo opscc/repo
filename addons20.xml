@@ -180,7 +180,21 @@
     </extension>
   </addon>
   
+
+  <addon id="script.module.certifi" name="certifi" version="2025.07.14" provider-name="Certifi">
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en_GB">xxPython package for providing Mozilla's CA Bundle.</summary>
+      <license>MPL-2.0</license>
+      <website>https://github.com/certifi/python-certifi</website>
+      <source>https://github.com/certifi/python-certifi</source>
+      <assets>
+        <icon>resources/icon.png</icon>
+      </assets>
+    </extension>
+  </addon>
   
+    
   <addon id="plugin.video.cbcmusic" 
         version="1.0.2" 
         name="CBC Music" 
@@ -198,6 +212,8 @@
     </extension>
   </addon>
 
+
+  
   <addon 
     id="script.video.F4mProxy" 
     name="F4mProxy" 
@@ -245,6 +261,34 @@
       <summary lang="en">Exodus Redux</summary>
     </extension>
   </addon>
+
+
+  <addon id="plugin.video.youtube" name="YouTube" version="6.8.25c" provider-name="anxdpanic, bromix">
+    <requires>
+      <!--<import addon="xbmc.python" version="2.20.0"/>-->
+      <import addon="script.module.six" version="1.11.0"/>
+      <import addon="script.module.requests" version="2.12.4"/>
+      <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="resources/lib/startup.py" start="login"/>
+    <extension point="xbmc.python.module" library="resources/lib/"/>
+    <extension point="xbmc.addon.metadata">
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+      </assets>
+      <platform>all</platform>
+      <license>GPL-2.0-only</license>
+      <forum>https://ytaddon.panicked.xyz/forum</forum>
+      <website>https://www.youtube.com</website>
+      <source>https://github.com/anxdpanic/plugin.video.youtube</source>
+      <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+  </addon>
+  
 
 <!--  <addon 
     id="plugin.video.exodusredux"
@@ -312,45 +356,10 @@
     </extension>
   </addon>
   
-  <addon id="script.module.certifi" name="certifi" version="2025.07.14" provider-name="Certifi">
-    <extension point="xbmc.python.module" library="lib"/>
-    <extension point="xbmc.addon.metadata">
-      <summary lang="en_GB">xxPython package for providing Mozilla's CA Bundle.</summary>
-      <license>MPL-2.0</license>
-      <website>https://github.com/certifi/python-certifi</website>
-      <source>https://github.com/certifi/python-certifi</source>
-      <assets>
-        <icon>resources/icon.png</icon>
-      </assets>
-    </extension>
-  </addon>
+
   
   
-  <addon id="plugin.video.youtube" name="YouTube" version="6.8.25c" provider-name="anxdpanic, bromix">
-    <requires>
-      <!--<import addon="xbmc.python" version="2.20.0"/>-->
-      <import addon="script.module.six" version="1.11.0"/>
-      <import addon="script.module.requests" version="2.12.4"/>
-      <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="resources/lib/default.py">
-      <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="resources/lib/startup.py" start="login"/>
-    <extension point="xbmc.python.module" library="resources/lib/"/>
-    <extension point="xbmc.addon.metadata">
-      <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-      </assets>
-      <platform>all</platform>
-      <license>GPL-2.0-only</license>
-      <forum>https://ytaddon.panicked.xyz/forum</forum>
-      <website>https://www.youtube.com</website>
-      <source>https://github.com/anxdpanic/plugin.video.youtube</source>
-      <reuselanguageinvoker>true</reuselanguageinvoker>
-    </extension>
-  </addon>
+
   <addon id="script.exodusredux.metadata" version="1.0.2" name="Exodus Redux metadata" provider-name="I-A-C">
     <requires>
       <!--<import addon="xbmc.python" version="2.19.0"/>-->
