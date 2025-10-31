@@ -265,7 +265,7 @@
 
   <addon id="plugin.video.youtube" name="YouTube" 
     version="7.2.0.3a" 
-  provider-name="anxdpanic, bromix">
+  provider-name="opscc,anxdpanic, bromix">
     <requires>
       <!--<import addon="xbmc.python" version="2.20.0"/>-->
       <import addon="script.module.six" version="1.11.0"/>
