@@ -236,7 +236,7 @@
 
   <addon id="script.module.inputstreamhelper" version="0.3.3" name="InputStream Helper" provider-name="emilsvennesson">
     <requires>
-      <import addon="xbmc.python" version="2.25.0"/>
+      <!--<import addon="xbmc.python" version="2.25.0"/>-->
       <import addon="script.module.requests" version="2.9.1"/>
     </requires>
     <extension library="lib" point="xbmc.python.module"/>
@@ -263,7 +263,9 @@
   </addon>
 
 
-  <addon id="plugin.video.youtube" name="YouTube" version="6.8.25c" provider-name="anxdpanic, bromix">
+  <addon id="plugin.video.youtube" name="YouTube" 
+    version="7.2.0.3a" 
+  provider-name="anxdpanic, bromix">
     <requires>
       <!--<import addon="xbmc.python" version="2.20.0"/>-->
       <import addon="script.module.six" version="1.11.0"/>
@@ -416,6 +418,7 @@
       <source/>
     </extension>
   </addon>
+
   <addon id="script.module.metadatautils" name="Metadata and Artwork module" version="1.0.0a" provider-name="marcelveldt+opscc">
     <requires>
       <!--<import addon="xbmc.python" version="2.24.0"/>-->
@@ -438,6 +441,7 @@
       <platform>all</platform>
     </extension>
   </addon>
+
   <addon id="script.module.thetvdb" name="The TVDB API v2" version="1.0.12a" provider-name="marcelveldt+opscc">
     <requires>
       <!--<import addon="xbmc.python" version="2.24.0"/>-->
@@ -455,6 +459,7 @@
       <platform>all</platform>
     </extension>
   </addon>
+
   <addon id="skin.lyrebird" name="Lyrebird" version="1.0.0c" provider-name="Rufoo">
     <requires>
       <import addon="xbmc.gui" version="5.14.0"/>
