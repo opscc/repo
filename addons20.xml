@@ -250,10 +250,19 @@
       </assets>
     </extension>
   </addon>
-  <addon id="script.module.exodusredux" name="Exodus Redux Module" version="2.0.5v" provider-name="I-A-C">
+
+
+<addon id="script.module.exodusredux" 
+  name="Exodus Redux Module" 
+  version="3.0.0a" 
+  provider-name="I-A-C">
     <requires>
-<!--      <import addon="xbmc.python" version="2.1.0"/>-->
-      <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.certifi"/>
+    <import addon="script.module.urllib3"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplecache" version="2.0.2"/>
+    <import addon="script.video.F4mProxy" version="2.9.15"/>
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.addon.metadata">
@@ -327,7 +336,7 @@
     >
     <requires>
       <import addon="xbmc.python" version="3.0.0"/>
-      <import addon="script.module.exodusredux"/>
+      <import addon="script.module.exodusredux" version="3.0.0"/>
       <import addon="script.exodusredux.artwork"/>
       <import addon="script.exodusredux.metadata"/>
       <import addon="script.module.resolveurl"/>
@@ -348,6 +357,7 @@
   
   <addon id="script.exodusredux.artwork" version="1.0.2" name="Exodus Redux Artwork" provider-name="I-A-C">
     <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
       <!--<import addon="xbmc.python" version="2.19.0"/>-->
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
@@ -357,13 +367,10 @@
       <platform>all</platform>
     </extension>
   </addon>
-  
-
-  
-  
 
   <addon id="script.exodusredux.metadata" version="1.0.2" name="Exodus Redux metadata" provider-name="I-A-C">
     <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
       <!--<import addon="xbmc.python" version="2.19.0"/>-->
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
@@ -373,8 +380,10 @@
       <platform>all</platform>
     </extension>
   </addon>
+  
   <addon id="script.exodusredux.artwork" version="1.0.2" name="Exodus Redux Artwork" provider-name="I-A-C">
     <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
       <!--<import addon="xbmc.python" version="2.19.0"/>-->
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
@@ -384,6 +393,7 @@
       <platform>all</platform>
     </extension>
   </addon>
+  
   <addon id="script.module.simplecache" name="Simple Cache Module" version="2.0.2" provider-name="marcelveldt">
     <requires>
       <!--<import addon="xbmc.python" version="2.24.0"/>-->
@@ -397,6 +407,7 @@
       <platform>all</platform>
     </extension>
   </addon>
+
   <addon id="script.module.metahandler" name="metahandler" version="2.9.0a" provider-name="Eldorado">
     <requires>
       <!--<import addon="xbmc.python" version="2.1.0"/>-->
