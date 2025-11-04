@@ -338,9 +338,12 @@
       <reuselanguageinvoker>true</reuselanguageinvoker>
     </extension>
   </addon>
-  <addon id="script.exodusredux.metadata" version="1.0.2" name="Exodus Redux metadata" provider-name="I-A-C">
+  <addon id="script.exodusredux.metadata" 
+    version="1.0.2" 
+    name="Exodus Redux metadata" 
+    provider-name="I-A-C">
     <requires>
-      <import addon="xbmc.python" version="2.19.0"/>
+<!--      <import addon="xbmc.python" version="2.19.0"/>-->
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.addon.metadata">
