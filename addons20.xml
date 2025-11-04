@@ -321,7 +321,7 @@
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.exodusredux" version="3.0.0"/>
       <import addon="script.exodusredux.artwork" version="1.1.0"/>
-      <import addon="script.exodusredux.metadata"/>
+      <import addon="script.exodusredux.metadata" version="1.1.0"/>
       <import addon="script.module.resolveurl"/>
       <import addon="script.module.requests"/>
       <import addon="script.module.openscrapers"/>
@@ -354,7 +354,7 @@
     </extension>
   </addon>
 
-  <addon id="script.exodusredux.metadata" version="1.0.2" name="Exodus Redux metadata" provider-name="I-A-C">
+  <addon id="script.exodusredux.metadata" version="1.1.0" name="Exodus Redux metadata" provider-name="I-A-C">
     <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <!--<import addon="xbmc.python" version="2.19.0"/>-->
