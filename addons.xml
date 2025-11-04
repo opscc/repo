@@ -127,23 +127,7 @@
     </extension>
   </addon>
 
-  <addon id="script.module.routing" name="Plugin routing" version="0.2.3" provider-name="takoi">
-    <requires>
-      <import addon="xbmc.python" version="2.14.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib"/>
-    <extension point="xbmc.addon.metadata">
-      <summary lang="en_GB">Routing module for plugins</summary>
-      <description lang="en_GB">Library for building and parsing plugin URLs.</description>
-      <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-      <platform>all</platform>
-      <language>en_GB</language>
-      <source>https://github.com/tamland/kodi-plugin-routing</source>
-      <assets>
-        <icon>resources/icon.png</icon>
-      </assets>
-    </extension>
-  </addon>
+
   <addon id="script.module.urllib3" name="urllib3" version="1.26.18a" provider-name="Andrey Petrov">
     <requires>
       <import addon="xbmc.python" version="2.25.0"/>
@@ -199,7 +183,7 @@
   <addon 
     id="script.video.F4mProxy" 
     name="F4mProxy" 
-    version="3.0.2" 
+    version="3.0.3" 
     provider-name="Shani">
     <requires>
       <import addon="script.module.requests"/>
@@ -469,7 +453,7 @@
     </extension>
   </addon>
 
-  <addon id="repository.opscc" name="  opscc Addons" provider-name="opscc" version="1.1.2">
+  <addon id="repository.opscc" name="  opscc Addons" provider-name="opscc" version="1.1.2a">
       <requires>
           <import addon="xbmc.addon" version="12.0.0"/>
       </requires>
@@ -486,7 +470,7 @@
           <datadir zip="true">https://raw.githubusercontent.com/opscc/repo/master/</datadir>
           <hashes>false</hashes>
       </dir>
-      <dir minversion="19.9">
+      <dir minversion="19.8">
           <info compressed="false">https://raw.githubusercontent.com/opscc/repo/master/addons20.xml</info>
           <checksum>https://raw.githubusercontent.com/opscc/repo/master/subfoder/repo.md5</checksum>
           <datadir zip="true">https://raw.githubusercontent.com/opscc/repo/master/</datadir>
