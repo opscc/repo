@@ -325,9 +325,10 @@
       <import addon="script.module.resolveurl"/>
       <import addon="script.module.requests"/>
       <import addon="script.module.openscrapers"/>
-      <import addon="script.module.metahandler" version="2.9.0a"/>
+      <import addon="script.module.metahandler" version="2.9.0b"/>
       <import addon="script.video.F4mProxy" version="2.9.7"/>
     </requires>
+    <requires></requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
       <provides>video</provides>
     </extension>
@@ -399,7 +400,7 @@
 
   <addon id="script.module.metahandler" 
         name="metahandler" 
-        version="2.9.0a" 
+        version="2.9.0b" 
         provider-name="Eldorado">
     <requires>
       <!--<import addon="xbmc.python" version="2.1.0"/>-->
