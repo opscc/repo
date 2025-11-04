@@ -413,6 +413,31 @@
     </extension>
   </addon>
 
+<addon id="script.module.addon.common" 
+	     name="Common addon methods" 
+	     version="3.0.0a" 
+	     provider-name="Eldorado (original: t0mm0)">
+  <requires>
+    <!-- minor changes to work with python3-->
+    <!--<import addon="xbmc.python" version="2.1.0" />-->
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Collection of commonly used addon routines</summary>
+    <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source>version bump to support python 3</source>  
+  </extension>
+</addon>
+
+
   <addon id="script.module.metadatautils" name="Metadata and Artwork module" version="1.0.0a" provider-name="marcelveldt+opscc">
     <requires>
       <!--<import addon="xbmc.python" version="2.24.0"/>-->
