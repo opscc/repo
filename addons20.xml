@@ -325,7 +325,7 @@
       <import addon="script.module.resolveurl"/>
       <import addon="script.module.requests"/>
       <import addon="script.module.openscrapers"/>
-      <import addon="script.module.metahandler" version="2.9.0b"/>
+      <import addon="script.module.metahandler" version="3.0.0"/>
       <import addon="script.video.F4mProxy" version="2.9.7"/>
     </requires>
     <requires></requires>
