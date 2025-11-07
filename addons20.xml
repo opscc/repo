@@ -256,10 +256,9 @@
 
 
   <addon id="plugin.video.youtube" name="YouTube" 
-    version="7.2.0.3a" 
+    version="7.2.0.3b" 
   provider-name="opscc,anxdpanic, bromix">
     <requires>
-      <!--<import addon="xbmc.python" version="2.20.0"/>-->
       <import addon="script.module.six" version="1.11.0"/>
       <import addon="script.module.requests" version="2.12.4"/>
       <import addon="script.module.inputstreamhelper" version="0.2.2" optional="true"/>
