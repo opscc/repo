@@ -237,7 +237,7 @@
 
 <addon id="script.module.exodusredux" 
   name="Exodus Redux Module" 
-  version="3.0.0b" 
+  version="3.0.0c" 
   provider-name="I-A-C">
     <requires>
     <import addon="script.module.beautifulsoup4"/>
