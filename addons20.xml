@@ -28,7 +28,7 @@
 
   <addon id="plugin.video.uwc" 
          name="Ultimate Whitecream" 
-         version="2.1.0" 
+         version="2.1.1" 
          provider-name="Whitecream">
     <requires>
       <import addon="script.video.F4mProxy" version="2.9.10"/>
