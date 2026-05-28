@@ -52,7 +52,7 @@
 
   <addon id="script.module.openscrapers" 
         name="OpenScrapers Module" 
-        version="0.0.3.8"
+        version="0.0.4.0"
         provider-name="Addons4Kodi">
     <requires>
       <import addon="script.module.beautifulsoup4"/>
@@ -71,7 +71,7 @@
   
     <addon id="script.module.resolveurl" 
       name="ResolveURL" 
-      version="5.3.194a"
+      version="5.3.195"
       provider-name="gujal">
     <requires>
       <!-- <import addon="xbmc.python" version="3.0.0" /> -->
