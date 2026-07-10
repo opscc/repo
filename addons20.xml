@@ -4,7 +4,7 @@
 <addons>
   <addon id="plugin.video.rtpplay2" 
         name="RTP Play2" 
-        version="4.0.7" 
+        version="4.0.8" 
         provider-name="opscc">
     <requires>
       <import addon="script.video.F4mProxy" version="2.9.8"/>
@@ -238,9 +238,10 @@
 
 <addon id="script.module.exodusredux" 
   name="Exodus Redux Module" 
-  version="3.0.0c" 
+  version="3.0.1" 
   provider-name="I-A-C">
     <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.beautifulsoup4"/>
     <import addon="script.module.certifi"/>
     <import addon="script.module.urllib3"/>
